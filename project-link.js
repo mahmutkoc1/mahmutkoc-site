@@ -2,7 +2,7 @@ const project = document.querySelector('#projeler .project-copy');
 if (project) {
   const link = document.createElement('a');
   link.className = 'button';
-  link.href = 'https://nuke-topics-knights-tribal.trycloudflare.com/';
+  link.href = 'https://flame-doors-seek-bishop.trycloudflare.com/';
   link.target = '_blank';
   link.rel = 'noopener noreferrer';
   link.textContent = 'Uygulamayı aç ↗';
