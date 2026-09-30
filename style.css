@@ -35,6 +35,16 @@
 @media(max-width:760px){.teknoloji .hero h1{font-size:clamp(48px,10vw,65px);letter-spacing:-2px}.teknoloji .hero-copy{padding:25px 0}.teknoloji .code{font-size:20px;opacity:.065}.code-fragments span{font-size:12px;opacity:.18}.code-fragments span:nth-child(3),.code-fragments span:nth-child(5){display:none}.motion-toggle{bottom:64px}}
 @media(prefers-reduced-motion:reduce){.teknoloji .hero *{animation-play-state:paused}}
 
+/* Personal sections */
+.projects-title{font-size:clamp(44px,6vw,76px);font-weight:750;letter-spacing:-2.5px;margin:0;line-height:1.1}
+.projects-title span{color:var(--accent)}
+.contact-actions{display:flex;justify-content:center;gap:14px;flex-wrap:wrap}
+.button-outline{background:transparent;color:var(--accent);border-color:var(--accent)}
+.project-gallery{flex-direction:column;justify-content:center;gap:24px}
+.project-gallery figure{margin:0;width:100%}
+.project-gallery a{display:block;border-radius:6px;overflow:hidden;border:1px solid var(--line)}
+.project-gallery img{width:100%;height:auto}
+.project-gallery figcaption{display:flex;justify-content:space-between;gap:12px;margin-top:9px;font-size:12px;color:var(--muted)}
 /* Main portfolio refinements */
 .teknoloji .hero{height:100svh;min-height:690px}
 .skip-link{position:fixed;top:-80px;left:18px;z-index:20;background:#fff;color:#07142d;padding:12px 20px}
