@@ -2,7 +2,7 @@ const project = document.querySelector('#projeler .project-copy');
 if (project) {
   const link = document.createElement('a');
   link.className = 'button';
-  link.href = 'https://seek-naples-silver-terrace.trycloudflare.com/';
+  link.href = 'https://demonstration-charity-tropical-tvs.trycloudflare.com/';
   link.target = '_blank';
   link.rel = 'noopener noreferrer';
   link.textContent = 'Uygulamayı aç ↗';
