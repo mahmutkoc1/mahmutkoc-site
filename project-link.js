@@ -2,7 +2,7 @@ const project = document.querySelector('#projeler .project-copy');
 if (project) {
   const link = document.createElement('a');
   link.className = 'button';
-  link.href = 'https://ambassador-companion-leader-present.trycloudflare.com/';
+  link.href = 'https://providing-moderate-jpeg-backed.trycloudflare.com/';
   link.target = '_blank';
   link.rel = 'noopener noreferrer';
   link.textContent = 'Uygulamayı aç ↗';
